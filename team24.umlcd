@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_XLDLULwYEeyYtOKIsoJ-AQ">
+  <eAnnotations xmi:id="_fqbycLwYEeyYtOKIsoJ-AQ" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_fqbycbwYEeyYtOKIsoJ-AQ" source="visual-filters/hideNonPublicElements">
+      <details xmi:id="_fqbycrwYEeyYtOKIsoJ-AQ" key="isActive" value="false"/>
+    </contents>
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_g_h9ILwYEeyYtOKIsoJ-AQ" source="visual-filters/hideStaticFeatures">
+      <details xmi:id="_g_h9IbwYEeyYtOKIsoJ-AQ" key="isActive" value="false"/>
+    </contents>
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_hgofELwYEeyYtOKIsoJ-AQ" source="visual-filters/stereotypeapplications">
+      <details xmi:id="_hgofEbwYEeyYtOKIsoJ-AQ" key="isActive" value="true"/>
+    </contents>
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_iIl28LwYEeyYtOKIsoJ-AQ" source="visual-filters/commenticons">
+      <details xmi:id="_iIl28bwYEeyYtOKIsoJ-AQ" key="isActive" value="false"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="team24.uml#_VqZ38LwYEeyYtOKIsoJ-AQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YH7DQLwYEeyYtOKIsoJ-AQ" sourceAnchor="541.0,100.0" targetAnchor="0.0,114.0" target="_YK9JILwYEeyYtOKIsoJ-AQ" source="_YH7DSbwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XzsfsLwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YH7DQbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xztt0LwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YH7DQrwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZiXsLwYEeyYtOKIsoJ-AQ" position="-6.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YH7DQ7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_XzsfsbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZhwoLwYEeyYtOKIsoJ-AQ" position="11.999999999999996,2.0"/>
+      <visibility xmi:id="_YH7DRLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7DRbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YH7DRrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="unit" navigable="true">
+      <modelElement href="team24.uml#_XyipILwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZi-wLwYEeyYtOKIsoJ-AQ" position="-57.0,-57.0"/>
+      <visibility xmi:id="_YH7DR7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7DSLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJWmoLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xztt0bwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJWmobwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xzu78LwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJWmorwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJWmo7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xztt0rwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJWmpLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJWmpbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJWmprwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="TEXT_STYLE" navigable="true">
+      <modelElement href="team24.uml#_XylFYLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJWmp7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJWmqLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJXNsLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XzvjALwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJXNsbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_XzwKELwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJXNsrwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJXNs7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_XzvjAbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJXNtLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJXNtbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJXNtrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="HAND" navigable="true">
+      <modelElement href="team24.uml#_XylscLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJXNt7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJXNuLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJX0wLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XzwKEbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJX0wbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_XzwxILwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJX0wrwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJX0w7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_XzwKErwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJX0xLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJX0xbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJX0xrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="CLEAR" navigable="true">
+      <modelElement href="team24.uml#_XymTgLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJX0x7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJX0yLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJa4ELwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xzz0cbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJa4EbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz0bgLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJa4ErwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJa4E7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xzz0crwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJa4FLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJa4FbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJa4FrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="DISPLAY_BG" navigable="true">
+      <modelElement href="team24.uml#_XyovwLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJa4F7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJa4GLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJctQLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz0bgbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJctQbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz1CkbwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJctQrwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJctQ7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz1CkLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJctRLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJctRbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJctRrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="display" navigable="true">
+      <modelElement href="team24.uml#_Xyp94bwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0MfAMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xyqk8LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJctR7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJctSLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJdUULwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz1poLwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJdUUbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz2QsLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJdUUrwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJdUU7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz1pobwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJdUVLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJdUVbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJdUVrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="input" navigable="true">
+      <modelElement href="team24.uml#_XyrMALwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0NGEMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XyrzELwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJdUV7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJdUWLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJfwkLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz4F4bwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJfwkbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz4s8LwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJfwkrwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJfwk7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz4F4rwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJfwlLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJfwlbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJfwlrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="operatorButtons" navigable="true">
+      <modelElement href="team24.uml#_XytoQbwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0OUMMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_Xyu2YLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0OUMcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XyvdcLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJfwl7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJfwmLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJgXoLwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz4s8bwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJgXobwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz5UALwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJgXorwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJgXo7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz4s8rwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJgXpLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJgXpbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJgXprwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="functionButtons" navigable="true">
+      <modelElement href="team24.uml#_XyvdcbwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0QwcMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_XyxSoLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0QwccDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xyx5sLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJgXp7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJgXqLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJiM0LwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz5UAbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJiM0bwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz57ELwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJiM0rwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJiM07wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz5UArwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJiM1LwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJiM1bwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJiM1rwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="measurements" navigable="true">
+      <modelElement href="team24.uml#_Xyx5sbwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0RXgMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_XyzH0LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0RXgcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xyzu4LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJiM17wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJiM2LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YJja8LwYEeyYtOKIsoJ-AQ" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz57EbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YJja8bwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz7JMLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YJja8rwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YJja87wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz57ErwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJja9LwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJja9bwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YJja9rwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="operators" navigable="true">
+      <modelElement href="team24.uml#_Xyzu4bwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0R-kMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_Xy1kELwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0R-kcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy2LILwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YJja97wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJja-LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKJQ0LwYEeyYtOKIsoJ-AQ" sourceAnchor="162.0,0.0" targetAnchor="271.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz7JMbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKPXcbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz7wQLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKOwYLwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZkz8LwYEeyYtOKIsoJ-AQ" position="-8.5,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKOwYbwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz7JMrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZkM4LwYEeyYtOKIsoJ-AQ" position="-57.5,-72.0"/>
+      <visibility xmi:id="_YKTB0bwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKTB0LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKPXcLwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="km" navigable="true">
+      <modelElement href="team24.uml#_Xy3ZQLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZlbALwYEeyYtOKIsoJ-AQ" position="40.5,17.0"/>
+      <stereotypes xmi:id="_o0SloMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy4AULwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKTB07wYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKTB0rwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKKe8LwYEeyYtOKIsoJ-AQ" sourceAnchor="63.0,0.0" targetAnchor="172.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz7wQbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKPXdbwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz8XULwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKPXcrwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZmpILwYEeyYtOKIsoJ-AQ" position="-57.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKPXc7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz7wQrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZmCELwYEeyYtOKIsoJ-AQ" position="-8.0,-56.0"/>
+      <visibility xmi:id="_YKTo4rwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKTo4bwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKPXdLwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="kmSQ" navigable="true">
+      <modelElement href="team24.uml#_Xy4nYLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZnQMLwYEeyYtOKIsoJ-AQ" position="-17.5,6.0"/>
+      <stereotypes xmi:id="_o0TMsMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy51gLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKTo5LwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKTo47wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKLGALwYEeyYtOKIsoJ-AQ" sourceAnchor="132.0,0.0" targetAnchor="241.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz8XUbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKP-gLwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz8-YLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKPXdrwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZoeULwYEeyYtOKIsoJ-AQ" position="-27.5,14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKPXd7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz8XUrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZn3QLwYEeyYtOKIsoJ-AQ" position="-3.5,-67.0"/>
+      <visibility xmi:id="_YKUP8LwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKTo5rwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKPXeLwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="zero" navigable="true">
+      <modelElement href="team24.uml#_Xy6ckLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZoeUbwYEeyYtOKIsoJ-AQ" position="40.5,1.0"/>
+      <stereotypes xmi:id="_o0TMscDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy7DoLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKUP8rwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKUP8bwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKMUILwYEeyYtOKIsoJ-AQ" sourceAnchor="3.0,0.0" targetAnchor="112.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz8-YbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKP-hLwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz9lcLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKP-gbwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZpscLwYEeyYtOKIsoJ-AQ" position="7.0,14.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKP-grwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz8-YrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZpFYLwYEeyYtOKIsoJ-AQ" position="-23.0,-26.0"/>
+      <visibility xmi:id="_YKUP9bwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKUP9LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKP-g7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="hr" navigable="true">
+      <modelElement href="team24.uml#_Xy7DobwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZpscbwYEeyYtOKIsoJ-AQ" position="-70.0,17.0"/>
+      <stereotypes xmi:id="_o0TzwMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy7qsLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKUP97wYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKUP9rwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKM7MLwYEeyYtOKIsoJ-AQ" sourceAnchor="33.0,0.0" targetAnchor="142.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz9lcbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKP-iLwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz-MgLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKP-hbwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZrhoLwYEeyYtOKIsoJ-AQ" position="-27.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKP-hrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz9lcrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZqTgLwYEeyYtOKIsoJ-AQ" position="-8.0,-72.0"/>
+      <visibility xmi:id="_YKU3ArwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKU3AbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKP-h7wYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="kmph" navigable="true">
+      <modelElement href="team24.uml#_Xy8RwLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZsIsLwYEeyYtOKIsoJ-AQ" position="-69.0,6.0"/>
+      <stereotypes xmi:id="_o0Ua0MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy840LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKU3BLwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKU3A7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKNiQLwYEeyYtOKIsoJ-AQ" sourceAnchor="93.0,0.0" targetAnchor="202.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz-MgbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YKQlkrwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_Xz_aoLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKP-ibwYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZt94LwYEeyYtOKIsoJ-AQ" position="-57.0,14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKQlkLwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz-MgrwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZsvwLwYEeyYtOKIsoJ-AQ" position="2.0,-61.33333333333337"/>
+      <visibility xmi:id="_YKU3B7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKU3BrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKQlkbwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="ft_pds" navigable="true">
+      <modelElement href="team24.uml#_Xy9f4LwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZuk8LwYEeyYtOKIsoJ-AQ" position="46.0,32.0"/>
+      <stereotypes xmi:id="_o0VB4MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy-uALwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKVeEbwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKVeELwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YKOJULwYEeyYtOKIsoJ-AQ" sourceAnchor="186.0,111.0" targetAnchor="310.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_Xz_aobwYEeyYtOKIsoJ-AQ"/>
+    <bendpoints xmi:id="_0WMikMDIEeygAPSrI0Oz6Q" sourceX="15" targetY="184"/>
+    <stereotypes xmi:id="_YKQllrwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_X0ABsLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YKQlk7wYEeyYtOKIsoJ-AQ" text="">
+      <visualProperties xmi:id="_YZwaILwYEeyYtOKIsoJ-AQ" position="2.0,-111.88888888888891"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YKQllLwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_Xz_aorwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZvMALwYEeyYtOKIsoJ-AQ" position="22.0,-82.75"/>
+      <visibility xmi:id="_YKVeFLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKVeE7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YKQllbwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="pds" navigable="true">
+      <modelElement href="team24.uml#_Xy-uAbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_YZwaIbwYEeyYtOKIsoJ-AQ" position="41.0,1.0"/>
+      <stereotypes xmi:id="_o0VB4cDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_Xy_VELwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKVeFrwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKVeFbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YK3CgLwYEeyYtOKIsoJ-AQ" source="_YK9JILwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_X0ABsbwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YK5ew7wYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_X0AowLwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YK5ewLwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YK5ewbwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_X0ABsrwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YK6s4bwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK6s4LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YK5ewrwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="numerator" navigable="true">
+      <modelElement href="team24.uml#_XzC_cLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0Vo8MDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_XzDmgLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0Vo8cDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XzENkbwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YK6s47wYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YK6s4rwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YK3pkLwYEeyYtOKIsoJ-AQ" source="_YK9JILwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_X0BP0LwYEeyYtOKIsoJ-AQ"/>
+    <stereotypes xmi:id="_YK6F0bwYEeyYtOKIsoJ-AQ" name="Reference">
+      <modelElement href="team24.uml#_X0B24LwYEeyYtOKIsoJ-AQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YK5exLwYEeyYtOKIsoJ-AQ" text=""/>
+    <sourceRole xmi:id="_YK5exbwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_X0BP0bwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YK7T87wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK7T8rwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YK6F0LwYEeyYtOKIsoJ-AQ" aggregationKind="NONE" name="denominator" navigable="true">
+      <modelElement href="team24.uml#_XzE0oLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o0WQAMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_XzGCwLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_o0WQAcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XzHQ4LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YK7T9bwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YK7T9LwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qio90MDIEeygAPSrI0Oz6Q" targetItem="_YI_aQLwYEeyYtOKIsoJ-AQ" sourceItem="_qidXoMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qpX38MDIEeygAPSrI0Oz6Q" sourceAnchor="186.0,141.0" targetAnchor="340.0,231.0" target="_YH7DSbwYEeyYtOKIsoJ-AQ" source="_YKZIcLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZLf0cDIEeygAPSrI0Oz6Q"/>
+    <bendpoints xmi:id="_0WMikcDIEeygAPSrI0Oz6Q" sourceX="45" targetY="214"/>
+    <stereotypes xmi:id="_qpX38cDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZLf08DIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qpX38sDIEeygAPSrI0Oz6Q" text="">
+      <visualProperties xmi:id="_0WOXwMDIEeygAPSrI0Oz6Q" position="3.0,-63.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qpX388DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZLf0sDIEeygAPSrI0Oz6Q"/>
+      <visualProperties xmi:id="_0WNJoMDIEeygAPSrI0Oz6Q" position="10.0,2.0"/>
+      <visibility xmi:id="_qpX39MDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qpX39cDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qpX39sDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="multiSlash" navigable="true">
+      <modelElement href="team24.uml#_qY8PQMDIEeygAPSrI0Oz6Q"/>
+      <visualProperties xmi:id="_0WOXwcDIEeygAPSrI0Oz6Q" position="2.0,79.5"/>
+      <stereotypes xmi:id="_qpX398DIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY82UMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_qpX3-MDIEeygAPSrI0Oz6Q" label="~"/>
+      <cardinality xmi:id="_qpX3-cDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rWPlAMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZGnUMDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rWPlAcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZHOYMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rWPlAsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rWPlA8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZGnUcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWPlBMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rWPlBcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rWPlBsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="TEXT_COLOR" navigable="true">
+      <modelElement href="team24.uml#_qY1hkcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWPlB8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rWPlCMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rWrC0MDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZHOYcDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rWrC0cDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZH1cMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rWrC0sDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rWrC08DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZHOYsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWrC1MDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rWrC1cDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rWrC1sDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="INPUT_TEXT_COLOR" navigable="true">
+      <modelElement href="team24.uml#_qY2IoMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWrC18DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rWrC2MDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rWzlsMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZH1ccDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rWzlscDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZIcgMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rWzlssDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rWzls8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZH1csDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWzltMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rWzltcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rWzltsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="BACKGROUND" navigable="true">
+      <modelElement href="team24.uml#_qY2IosDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rWzlt8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rWzluMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rW8IkMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZIcgcDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rW8IkcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZIcg8DIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rW8IksDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rW8Ik8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZIcgsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rW8IlMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rW8IlcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rW8IlsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="NUMBER_BG" navigable="true">
+      <modelElement href="team24.uml#_qY2IpMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rW8Il8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rW8ImMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXErcMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZIchMDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXErccDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZJDkMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXErcsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXErc8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZIchcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXErdMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXErdcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXErdsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="FUNCTION_BG" navigable="true">
+      <modelElement href="team24.uml#_qY2vscDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXErd8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXEreMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXNOUMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZJDkcDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXNOUcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZJDk8DIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXNOUsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXNOU8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZJDksDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXNOVMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXNOVcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXNOVsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="OPERATOR_BG" navigable="true">
+      <modelElement href="team24.uml#_qY2vs8DIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXNOV8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXNOWMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXWYQMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZJDlMDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXWYQcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZJqoMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXWYQsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXWYQ8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZJDlcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXWYRMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXWYRcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXWYRsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="unitSelect" navigable="true">
+      <modelElement href="team24.uml#_qY3WwMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tJJGAMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_tJaLwMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tJz0YMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_tKOEEMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_rXWYR8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXWYSMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXe7IMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZJqocDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXe7IcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZJqo8DIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXe7IsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXe7I8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZJqosDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXe7JMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXe7JcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXe7JsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="historyFrame" navigable="true">
+      <modelElement href="team24.uml#_qY5L8cDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tKph4MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_rXe7J8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXe7KMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXneAMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZKRsMDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXneAcDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZKRssDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXneAsDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXneA8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZKRscDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXneBMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXneBcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXneBsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="histToggle" navigable="true">
+      <modelElement href="team24.uml#_qY5zAMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tLU3UMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_rXneB8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXneCMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rXwA4MDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZKRs8DIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rXwA4cDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZK4wMDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rXwA4sDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rXwA48DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZKRtMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rXwA5MDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rXwA5cDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rXwA5sDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="historyContent" navigable="true">
+      <modelElement href="team24.uml#_qY5zAsDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tLw8MMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_rXwA58DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rXwA6MDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_rYLesMDIEeygAPSrI0Oz6Q" source="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZK4wcDIEeygAPSrI0Oz6Q"/>
+    <stereotypes xmi:id="_rYLescDIEeygAPSrI0Oz6Q" name="Reference">
+      <modelElement href="team24.uml#_qZLf0MDIEeygAPSrI0Oz6Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_rYLessDIEeygAPSrI0Oz6Q" text=""/>
+    <sourceRole xmi:id="_rYLes8DIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="">
+      <modelElement href="team24.uml#_qZK4wsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rYLetMDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_rYLetcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_rYLetsDIEeygAPSrI0Oz6Q" aggregationKind="NONE" name="numberButtons" navigable="true">
+      <modelElement href="team24.uml#_qY6aEcDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tMLL4MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_tMi_UMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tM_EMMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_tNZT4MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_rYLet8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rYLeuMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_rYTagMDIEeygAPSrI0Oz6Q" subClass="_YJkpELwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XyT_oLwYEeyYtOKIsoJ-AQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_v9TPsMDIEeygAPSrI0Oz6Q" targetItem="_YH7DSbwYEeyYtOKIsoJ-AQ" sourceItem="_v9SBkMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_v_zxIMDIEeygAPSrI0Oz6Q" targetItem="_YH7qWrwYEeyYtOKIsoJ-AQ" sourceItem="_v_avkMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wCSdYMDIEeygAPSrI0Oz6Q" targetItem="_YH7qdrwYEeyYtOKIsoJ-AQ" sourceItem="_wB2_kMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wEjHMMDIEeygAPSrI0Oz6Q" targetItem="_qnXs0MDIEeygAPSrI0Oz6Q" sourceItem="_wELTwMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wG_-QMDIEeygAPSrI0Oz6Q" targetItem="_YJkpY7wYEeyYtOKIsoJ-AQ" sourceItem="_wG_XMMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wI_iUMDIEeygAPSrI0Oz6Q" targetItem="_YJkpabwYEeyYtOKIsoJ-AQ" sourceItem="_wI-UMMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wK8qIMDIEeygAPSrI0Oz6Q" targetItem="_YJkpbrwYEeyYtOKIsoJ-AQ" sourceItem="_wK7cAMDIEeygAPSrI0Oz6Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wMgJUMDIEeygAPSrI0Oz6Q" targetItem="_YJkpiLwYEeyYtOKIsoJ-AQ" sourceItem="_wMfiQMDIEeygAPSrI0Oz6Q"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YH7DSbwYEeyYtOKIsoJ-AQ" comments="_v9SBkMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_v9TPsMDIEeygAPSrI0Oz6Q" name="Measurement" associationsIn="_YKJQ0LwYEeyYtOKIsoJ-AQ _YKKe8LwYEeyYtOKIsoJ-AQ _YKLGALwYEeyYtOKIsoJ-AQ _YKMUILwYEeyYtOKIsoJ-AQ _YKM7MLwYEeyYtOKIsoJ-AQ _YKNiQLwYEeyYtOKIsoJ-AQ _YKOJULwYEeyYtOKIsoJ-AQ _qpX38MDIEeygAPSrI0Oz6Q" associationsOut="_YH7DQLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YH7qULwYEeyYtOKIsoJ-AQ" position="-573.0,-4.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YH7qUbwYEeyYtOKIsoJ-AQ" label="+"/>
+    <attributes xmi:id="_YH7qUrwYEeyYtOKIsoJ-AQ" name="value">
+      <modelElement href="team24.uml#_XyiCELwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YH7qU7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7qVLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YH7qVbwYEeyYtOKIsoJ-AQ" name="Double">
+        <modelElement href="team24.uml#_Xx-BYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YH7qVrwYEeyYtOKIsoJ-AQ" name="unit">
+      <modelElement href="team24.uml#_XyipILwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YH7qV7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7qWLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YH7qWbwYEeyYtOKIsoJ-AQ" name="Unit">
+        <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YH7qWrwYEeyYtOKIsoJ-AQ" comments="_v_avkMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_v_zxIMDIEeygAPSrI0Oz6Q" name="Measurement">
+      <modelElement href="team24.uml#_Xof8ULwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YH7qW7wYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YH7qXLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7qXbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YH7qXrwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XohKcrwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YH7qX7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YH7qYLwYEeyYtOKIsoJ-AQ" name="value">
+        <modelElement href="team24.uml#_XogjYLwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YH7qYbwYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YH7qYrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YH7qY7wYEeyYtOKIsoJ-AQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YH7qZLwYEeyYtOKIsoJ-AQ" name="unit">
+        <modelElement href="team24.uml#_XogjYbwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YH7qZbwYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YH7qZrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YH7qZ7wYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YH7qcbwYEeyYtOKIsoJ-AQ" name="toString">
+      <modelElement href="team24.uml#_Xok00LwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YH7qcrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7qc7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YH7qdLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_Xolb4LwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YH7qdbwYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YH7qdrwYEeyYtOKIsoJ-AQ" comments="_wB2_kMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wCSdYMDIEeygAPSrI0Oz6Q" name="Measurement">
+      <modelElement href="team24.uml#_XxXkcLwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YH7qd7wYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YH7qeLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YH7qebwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YH7qerwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XxYLhLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YH7qe7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YH7qfLwYEeyYtOKIsoJ-AQ" name="value">
+        <modelElement href="team24.uml#_XxYLgLwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YH7qfbwYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YH7qfrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YH7qf7wYEeyYtOKIsoJ-AQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YH7qgLwYEeyYtOKIsoJ-AQ" name="unit">
+        <modelElement href="team24.uml#_XxYLgbwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YH7qgbwYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YH7qgrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YH7qg7wYEeyYtOKIsoJ-AQ" name="Unit">
+          <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qjTFIMDIEeygAPSrI0Oz6Q" name="convertUnit" staticOperation="true">
+      <modelElement href="team24.uml#_qXpOwMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_qjTFIcDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qjTFIsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qjTFI8DIEeygAPSrI0Oz6Q" name="template">
+        <modelElement href="team24.uml#_qXpOwcDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qjTFJMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qjTFJcDIEeygAPSrI0Oz6Q" name="Unit">
+          <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qjTFJsDIEeygAPSrI0Oz6Q" name="change">
+        <modelElement href="team24.uml#_qXpOwsDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qjTFJ8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qjTFKMDIEeygAPSrI0Oz6Q" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qnXs0MDIEeygAPSrI0Oz6Q" comments="_wELTwMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wEjHMMDIEeygAPSrI0Oz6Q" name="createMeasurement" staticOperation="true">
+      <modelElement href="team24.uml#_qYMBUMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_qnXs0cDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qnXs0sDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qnXs08DIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYMBU8DIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_qnXs1MDIEeygAPSrI0Oz6Q" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qnXs1cDIEeygAPSrI0Oz6Q" name="measure">
+        <modelElement href="team24.uml#_qYMBUcDIEeygAPSrI0Oz6Q"/>
+        <keywords xmi:id="_qnXs1sDIEeygAPSrI0Oz6Q" keyword="final"/>
+        <cardinality xmi:id="_qnXs18DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qnXs2MDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qnXs2cDIEeygAPSrI0Oz6Q" name="unit">
+        <modelElement href="team24.uml#_qYMBUsDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qnXs2sDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qnXs28DIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qnZiAMDIEeygAPSrI0Oz6Q" name="setUnit">
+      <modelElement href="team24.uml#_qYMoYsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_qnZiAcDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qnZiAsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qnZiA8DIEeygAPSrI0Oz6Q" name="unit">
+        <modelElement href="team24.uml#_qYMoY8DIEeygAPSrI0Oz6Q"/>
+        <keywords xmi:id="_qnZiBMDIEeygAPSrI0Oz6Q" keyword="final"/>
+        <cardinality xmi:id="_qnZiBcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qnZiBsDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qnZiB8DIEeygAPSrI0Oz6Q" name="type">
+        <modelElement href="team24.uml#_qYNPcMDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qnZiCMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qnZiCcDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qntrEMDIEeygAPSrI0Oz6Q" name="setValue">
+      <modelElement href="team24.uml#_qYNPc8DIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_qntrEcDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qntrEsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qntrE8DIEeygAPSrI0Oz6Q" name="value">
+        <modelElement href="team24.uml#_qYN2gMDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qntrFMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qntrFcDIEeygAPSrI0Oz6Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YK9JILwYEeyYtOKIsoJ-AQ" name="Unit" associationsIn="_YH7DQLwYEeyYtOKIsoJ-AQ" associationsOut="_YK3CgLwYEeyYtOKIsoJ-AQ _YK3pkLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YK9JIbwYEeyYtOKIsoJ-AQ" position="20.0,-18.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YK9JIrwYEeyYtOKIsoJ-AQ" label="+"/>
+    <attributes xmi:id="_YK9JI7wYEeyYtOKIsoJ-AQ" defaultValue="new ArrayList&lt;SubUnit>()" name="numerator">
+      <modelElement href="team24.uml#_XzC_cLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqh5FLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1Pn4MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1QO8MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1RdEMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1RdEcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1e4cMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1e4ccDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YK9JJrwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YK9JJ7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YK9JKLwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YK9JKbwYEeyYtOKIsoJ-AQ" defaultValue="new ArrayList&lt;SubUnit>()" name="denominator">
+      <modelElement href="team24.uml#_XzE0oLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqigILwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1SEIMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1SEIcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1SrMMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1TSQMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1ffgMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1ffgcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YK9JLLwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YK9JLbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YK9JLrwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qdsMYMDIEeygAPSrI0Oz6Q" name="type">
+      <modelElement href="team24.uml#_qY82UcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_qdsMYcDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qdsMYsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_qdsMY8DIEeygAPSrI0Oz6Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YK9JOLwYEeyYtOKIsoJ-AQ" name="exponentSweep">
+      <modelElement href="team24.uml#_XpVCwLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqigIbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YK9JObwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YK9JOrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YK9JO7wYEeyYtOKIsoJ-AQ" name="toString">
+      <modelElement href="team24.uml#_XpVp0LwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YK9JPLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK9JPbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YK9JPrwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XpWQ4LwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YK9JP7wYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YK9JQLwYEeyYtOKIsoJ-AQ" name="getNumerator">
+      <modelElement href="team24.uml#_XpWQ4bwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YK9JQbwYEeyYtOKIsoJ-AQ" name="Generics">
+        <modelElement href="team24.uml#_XpXfALwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YK9JQrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK9JQ7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YK9JRLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XydJkbwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YK9JRbwYEeyYtOKIsoJ-AQ" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YK9JRrwYEeyYtOKIsoJ-AQ" name="getDenominator">
+      <modelElement href="team24.uml#_XpYtILwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YK9JR7wYEeyYtOKIsoJ-AQ" name="Generics">
+        <modelElement href="team24.uml#_XpaiULwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YK9JSLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK9JSbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YK9JSrwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XydwoLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YK9JS7wYEeyYtOKIsoJ-AQ" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YK9JTLwYEeyYtOKIsoJ-AQ" name="Unit">
+      <modelElement href="team24.uml#_XyY4ILwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YK9JTbwYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YK9JTrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YK9JT7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YK9JULwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XyZfM7wYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YK9JUbwYEeyYtOKIsoJ-AQ" name="Unit">
+          <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YK9JUrwYEeyYtOKIsoJ-AQ" name="num">
+        <modelElement href="team24.uml#_XyY4IbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YK9JU7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YK9JVLwYEeyYtOKIsoJ-AQ" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YK9JVbwYEeyYtOKIsoJ-AQ" name="den">
+        <modelElement href="team24.uml#_XyZfMLwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YK9JVrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YK9JV7wYEeyYtOKIsoJ-AQ" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qdTK0MDIEeygAPSrI0Oz6Q" name="sweep">
+      <modelElement href="team24.uml#_qX8JsMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_qdTK0cDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_qX9X0MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_qdTK0sDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_qdTK08DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qdTK1MDIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qX8wwcDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_qdTK1cDIEeygAPSrI0Oz6Q" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qdTK1sDIEeygAPSrI0Oz6Q" name="toSweep">
+        <modelElement href="team24.uml#_qX8wwMDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qdTK18DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qdTK2MDIEeygAPSrI0Oz6Q" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qdcUwMDIEeygAPSrI0Oz6Q" name="Unit">
+      <modelElement href="team24.uml#_qYTWEMDIEeygAPSrI0Oz6Q"/>
+      <keywords xmi:id="_qdcUwcDIEeygAPSrI0Oz6Q" keyword="create"/>
+      <visibility xmi:id="_qdcUwsDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qdcUw8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qdcUxMDIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYT9IsDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_qdcUxcDIEeygAPSrI0Oz6Q" name="Unit">
+          <modelElement href="team24.uml#_XpSmgLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qdcUxsDIEeygAPSrI0Oz6Q" name="unit">
+        <modelElement href="team24.uml#_qYT9IMDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qdcUx8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qdcUyMDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qdcUycDIEeygAPSrI0Oz6Q" name="type">
+        <modelElement href="team24.uml#_qYT9IcDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qdcUysDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qdcUy8DIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YLIvULwYEeyYtOKIsoJ-AQ" name="SubUnit">
+    <modelElement href="team24.uml#_XpNG8LwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YLIvUbwYEeyYtOKIsoJ-AQ" position="27.0,264.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YLIvUrwYEeyYtOKIsoJ-AQ" label="+"/>
+    <attributes xmi:id="_YLIvU7wYEeyYtOKIsoJ-AQ" name="name">
+      <modelElement href="team24.uml#_XzBKQLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YLIvVLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YLIvVbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YLIvVrwYEeyYtOKIsoJ-AQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YLIvV7wYEeyYtOKIsoJ-AQ" name="exponent">
+      <modelElement href="team24.uml#_XzCYYLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YLIvWLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YLIvWbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YLIvWrwYEeyYtOKIsoJ-AQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YLIvW7wYEeyYtOKIsoJ-AQ" name="SubUnit">
+      <modelElement href="team24.uml#_XpO8ILwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YLIvXLwYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YLIvXbwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YLIvXrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YLIvX7wYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XpPjMrwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YLIvYLwYEeyYtOKIsoJ-AQ" name="SubUnit">
+          <modelElement href="team24.uml#_XpNG8LwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YLIvYbwYEeyYtOKIsoJ-AQ" name="unit">
+        <modelElement href="team24.uml#_XpO8IbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YLIvYrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YLIvY7wYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YLIvZLwYEeyYtOKIsoJ-AQ" name="exponent">
+        <modelElement href="team24.uml#_XpO8IrwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YLIvZbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YLIvZrwYEeyYtOKIsoJ-AQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLIvZ7wYEeyYtOKIsoJ-AQ" name="setExponent">
+      <modelElement href="team24.uml#_XpQKQLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YLIvaLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YLIvabwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YLIvarwYEeyYtOKIsoJ-AQ" name="exponent">
+        <modelElement href="team24.uml#_XpQKQbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YLIva7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YLIvbLwYEeyYtOKIsoJ-AQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YLIvbbwYEeyYtOKIsoJ-AQ" name="toString">
+      <modelElement href="team24.uml#_XpQxULwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YLIvbrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YLIvb7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YLIvcLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XpRYYLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YLIvcbwYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qidXoMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_qio90MDIEeygAPSrI0Oz6Q" text="MeasuredMath is a class that provides mathematical functionality for the&#xD;&#xA;Measurement class.&#xD;&#xA;&#xD;&#xA;@author Team24&#xD;&#xA; *" item="_YI_aQLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_qZCV4MDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_v9SBkMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_v9TPsMDIEeygAPSrI0Oz6Q" text="Data structure for measurements.&#xD;&#xA;&#xD;&#xA;@author team24&#xD;&#xA; *" item="_YH7DSbwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7wXkMDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_v_avkMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_v_zxIMDIEeygAPSrI0Oz6Q" text="Construct with explicit values.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param value&#xD;&#xA;&#x9; * @param unit" item="_YH7qWrwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7w-oMDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wB2_kMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wCSdYMDIEeygAPSrI0Oz6Q" text="Construct with explicit values.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param value&#xD;&#xA;&#x9; * @param unit" item="_YH7qdrwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7xlsMDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wELTwMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wEjHMMDIEeygAPSrI0Oz6Q" text="Indirect constructor so that null can be returned if error in parsing.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param measure.&#xD;&#xA;&#x9; * @return new measure or null." item="_qnXs0MDIEeygAPSrI0Oz6Q">
+    <modelElement href="team24.uml#_v7xlscDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wG_XMMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wG_-QMDIEeygAPSrI0Oz6Q" text="Constructor/Setup" item="_YJkpY7wYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7xlssDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wI-UMMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wI_iUMDIEeygAPSrI0Oz6Q" text="Setup the display exactly once for each window, avoids improper calls to&#xD;&#xA;&#x9; * setup.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return true/false based on success." item="_YJkpabwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7xls8DIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wK7cAMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wK8qIMDIEeygAPSrI0Oz6Q" text="Setup the input exactly once for each window, avoids improper calls to setup.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return true/false based on success." item="_YJkpbrwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7xltMDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wMfiQMDIEeygAPSrI0Oz6Q" sourceConnectionVisual="_wMgJUMDIEeygAPSrI0Oz6Q" text="Main method so that the class is runnable.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param args Command line arguments." item="_YJkpiLwYEeyYtOKIsoJ-AQ">
+    <modelElement href="team24.uml#_v7xltcDIEeygAPSrI0Oz6Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YKZIcLwYEeyYtOKIsoJ-AQ" name="MeasuredMathTest" associationsOut="_YKJQ0LwYEeyYtOKIsoJ-AQ _YKKe8LwYEeyYtOKIsoJ-AQ _YKLGALwYEeyYtOKIsoJ-AQ _YKMUILwYEeyYtOKIsoJ-AQ _YKM7MLwYEeyYtOKIsoJ-AQ _YKNiQLwYEeyYtOKIsoJ-AQ _YKOJULwYEeyYtOKIsoJ-AQ _qpX38MDIEeygAPSrI0Oz6Q">
+    <modelElement href="team24.uml#_Xo_EgLwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YKZIcbwYEeyYtOKIsoJ-AQ" position="-464.0,300.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YKZIcrwYEeyYtOKIsoJ-AQ" label="+"/>
+    <attributes xmi:id="_YKZIc7wYEeyYtOKIsoJ-AQ" name="km">
+      <modelElement href="team24.uml#_Xy3ZQLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1ITIMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1I6MMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1anAMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIdbwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIdrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZId7wYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIeLwYEeyYtOKIsoJ-AQ" name="kmSQ">
+      <modelElement href="team24.uml#_Xy4nYLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1JhQMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1JhQcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1bOEMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIerwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIe7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIfLwYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIfbwYEeyYtOKIsoJ-AQ" name="zero">
+      <modelElement href="team24.uml#_Xy6ckLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1KIUMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1KvYMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1b1IMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIf7wYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIgLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIgbwYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIgrwYEeyYtOKIsoJ-AQ" name="hr">
+      <modelElement href="team24.uml#_Xy7DobwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1LWcMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1L9gMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1ccMMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIhLwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIhbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIhrwYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIh7wYEeyYtOKIsoJ-AQ" name="kmph">
+      <modelElement href="team24.uml#_Xy8RwLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1MkkMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1MkkcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1dDQMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIibwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIirwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIi7wYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIjLwYEeyYtOKIsoJ-AQ" name="ft_pds">
+      <modelElement href="team24.uml#_Xy9f4LwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1NLoMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1NysMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1dDQcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIjrwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIj7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIkLwYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIkbwYEeyYtOKIsoJ-AQ" name="pds">
+      <modelElement href="team24.uml#_Xy-uAbwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1OZwMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1PA0MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1dqUMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YKZIk7wYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZIlLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZIlbwYEeyYtOKIsoJ-AQ" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YKZIlrwYEeyYtOKIsoJ-AQ" name="op">
+      <modelElement href="team24.uml#_Xy_8ILwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqh5E7wYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YKZIl7wYEeyYtOKIsoJ-AQ" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XzAjMLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKZImLwYEeyYtOKIsoJ-AQ" label="~"/>
+      <cardinality xmi:id="_YKZImbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YKZImrwYEeyYtOKIsoJ-AQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHKwEMDIEeygAPSrI0Oz6Q" name="multiSlash">
+      <modelElement href="team24.uml#_qY8PQMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tNzjkMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tHKwEcDIEeygAPSrI0Oz6Q" label="~"/>
+      <cardinality xmi:id="_tHKwEsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_tHKwE8DIEeygAPSrI0Oz6Q" name="Measurement">
+        <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YKZIm7wYEeyYtOKIsoJ-AQ" name="testMuliplication">
+      <modelElement href="team24.uml#_XpBgwLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YKZInLwYEeyYtOKIsoJ-AQ" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XpCH0LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKZInbwYEeyYtOKIsoJ-AQ" name="Annotations">
+        <modelElement href="team24.uml#_XpCu4LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKZInrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKZIn7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YKZIoLwYEeyYtOKIsoJ-AQ" name="testDivision">
+      <modelElement href="team24.uml#_XpCu4rwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YKZIobwYEeyYtOKIsoJ-AQ" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XpDV8LwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKZIorwYEeyYtOKIsoJ-AQ" name="Annotations">
+        <modelElement href="team24.uml#_XpD9ALwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKZIo7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKZIpLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YKZIpbwYEeyYtOKIsoJ-AQ" name="testAddition">
+      <modelElement href="team24.uml#_XpEkELwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YKZIprwYEeyYtOKIsoJ-AQ" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XpFLILwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKZIp7wYEeyYtOKIsoJ-AQ" name="Annotations">
+        <modelElement href="team24.uml#_XpFLIbwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKZIqLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKZIqbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_YKZIqrwYEeyYtOKIsoJ-AQ" name="testSubtraction">
+      <modelElement href="team24.uml#_XpFyMLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_YKZIq7wYEeyYtOKIsoJ-AQ" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_XpGZQLwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YKZIrLwYEeyYtOKIsoJ-AQ" name="Annotations">
+        <modelElement href="team24.uml#_XpGZQbwYEeyYtOKIsoJ-AQ"/>
+      </stereotypes>
+      <visibility xmi:id="_YKZIrbwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YKZIrrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tF92MMDIEeygAPSrI0Oz6Q" name="construct">
+      <modelElement href="team24.uml#_qX34QMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_tF92McDIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_tF92MsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGZUAMDIEeygAPSrI0Oz6Q" name="testCoverage">
+      <modelElement href="team24.uml#_qX34QcDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tGZUAcDIEeygAPSrI0Oz6Q" name="Annotations">
+        <modelElement href="team24.uml#_qX4fUMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tGZUAsDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qYIW8MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_tGZUA8DIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_tGZUBMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGyVkMDIEeygAPSrI0Oz6Q" name="testLikeUnits">
+      <modelElement href="team24.uml#_qX4fUsDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_tGyVkcDIEeygAPSrI0Oz6Q" name="Annotations">
+        <modelElement href="team24.uml#_qX5GYMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tGyVksDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qYIW8cDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_tGyVk8DIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_tGyVlMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YI_aQLwYEeyYtOKIsoJ-AQ" comments="_qidXoMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_qio90MDIEeygAPSrI0Oz6Q" name="MeasuredMath">
+    <modelElement href="team24.uml#_XoNBYLwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YI_aQbwYEeyYtOKIsoJ-AQ" position="-634.0,-256.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YI_aQrwYEeyYtOKIsoJ-AQ" label="+"/>
+    <operations xmi:id="_YI_aQ7wYEeyYtOKIsoJ-AQ" name="MeasuredMath">
+      <modelElement href="team24.uml#_XoR54LwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YI_aRLwYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YI_aRbwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YI_aRrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YI_aR7wYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XoTIArwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YI_aSLwYEeyYtOKIsoJ-AQ" name="MeasuredMath">
+          <modelElement href="team24.uml#_XoNBYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YI_aSbwYEeyYtOKIsoJ-AQ" name="add" staticOperation="true">
+      <modelElement href="team24.uml#_XxPBkLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jLQbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YI_aSrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YI_aS7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YI_aTLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XxPooLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YI_aTbwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YI_aTrwYEeyYtOKIsoJ-AQ" name="left">
+        <modelElement href="team24.uml#_XxPBkbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YI_aT7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YI_aULwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YI_aUbwYEeyYtOKIsoJ-AQ" name="right">
+        <modelElement href="team24.uml#_XxPBkrwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YI_aUrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YI_aU7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YI_aVLwYEeyYtOKIsoJ-AQ" name="subtract" staticOperation="true">
+      <modelElement href="team24.uml#_XxPoobwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jLQrwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YI_aVbwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YI_aVrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YI_aV7wYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XxQPsrwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YI_aWLwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YI_aWbwYEeyYtOKIsoJ-AQ" name="left">
+        <modelElement href="team24.uml#_XxQPsLwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YI_aWrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YI_aW7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YI_aXLwYEeyYtOKIsoJ-AQ" name="right">
+        <modelElement href="team24.uml#_XxQPsbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YI_aXbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YI_aXrwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YI_aX7wYEeyYtOKIsoJ-AQ" name="multiply" staticOperation="true">
+      <modelElement href="team24.uml#_XxQ2wLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jLQ7wYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_tB4AYMDIEeygAPSrI0Oz6Q" name="Annotations">
+        <modelElement href="team24.uml#_qXhS8MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tCoOUMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qYBCMMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_YI_aYLwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YI_aYbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YI_aYrwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XxRd0LwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YI_aY7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YI_aZLwYEeyYtOKIsoJ-AQ" name="left">
+        <modelElement href="team24.uml#_XxQ2wbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YI_aZbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YI_aZrwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YI_aZ7wYEeyYtOKIsoJ-AQ" name="right">
+        <modelElement href="team24.uml#_XxQ2wrwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABULwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABUbwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJABUrwYEeyYtOKIsoJ-AQ" name="divide" staticOperation="true">
+      <modelElement href="team24.uml#_XxSE4LwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jLRLwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_tDZqYMDIEeygAPSrI0Oz6Q" name="Annotations">
+        <modelElement href="team24.uml#_qXihEMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tEG1AMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qYBpQcDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_YJABU7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJABVLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJABVbwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XxSE47wYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJABVrwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJABV7wYEeyYtOKIsoJ-AQ" name="left">
+        <modelElement href="team24.uml#_XxSE4bwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABWLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABWbwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJABWrwYEeyYtOKIsoJ-AQ" name="right">
+        <modelElement href="team24.uml#_XxSE4rwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABW7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABXLwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJABXbwYEeyYtOKIsoJ-AQ" name="operate" staticOperation="true">
+      <modelElement href="team24.uml#_Xx7lILwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jLRbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJABXrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJABX7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJABYLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_Xx8MMbwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJABYbwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJABYrwYEeyYtOKIsoJ-AQ" name="left">
+        <modelElement href="team24.uml#_Xx7lIbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABY7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABZLwYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJABZbwYEeyYtOKIsoJ-AQ" name="right">
+        <modelElement href="team24.uml#_Xx7lIrwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABZrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABZ7wYEeyYtOKIsoJ-AQ" name="Measurement">
+          <modelElement href="team24.uml#_XoeHILwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YJABaLwYEeyYtOKIsoJ-AQ" name="op">
+        <modelElement href="team24.uml#_Xx8MMLwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJABabwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJABarwYEeyYtOKIsoJ-AQ" name="Character">
+          <modelElement href="team24.uml#_Xx5I4LwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qibicMDIEeygAPSrI0Oz6Q" name="simplifyMeasurement" staticOperation="true">
+      <modelElement href="team24.uml#_qXjIIMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_qibiccDIEeygAPSrI0Oz6Q" name="Array">
+        <modelElement href="team24.uml#_qXjvMsDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qibicsDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_qXkWQMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_qibic8DIEeygAPSrI0Oz6Q" label="+"/>
+      <cardinality xmi:id="_qibidMDIEeygAPSrI0Oz6Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_qibidcDIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qXjvMMDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_qibidsDIEeygAPSrI0Oz6Q" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qibid8DIEeygAPSrI0Oz6Q" name="ansDen">
+        <modelElement href="team24.uml#_qXjIIcDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qibieMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qibiecDIEeygAPSrI0Oz6Q" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qibiesDIEeygAPSrI0Oz6Q" name="ansNum">
+        <modelElement href="team24.uml#_qXjIIsDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_qibie8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_qibifMDIEeygAPSrI0Oz6Q" name="ArrayList">
+          <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YJkpELwYEeyYtOKIsoJ-AQ" name="Window" associationsOut="_YJWmoLwYEeyYtOKIsoJ-AQ _YJXNsLwYEeyYtOKIsoJ-AQ _YJX0wLwYEeyYtOKIsoJ-AQ _YJa4ELwYEeyYtOKIsoJ-AQ _YJctQLwYEeyYtOKIsoJ-AQ _YJdUULwYEeyYtOKIsoJ-AQ _YJfwkLwYEeyYtOKIsoJ-AQ _YJgXoLwYEeyYtOKIsoJ-AQ _YJiM0LwYEeyYtOKIsoJ-AQ _YJja8LwYEeyYtOKIsoJ-AQ _rWPlAMDIEeygAPSrI0Oz6Q _rWrC0MDIEeygAPSrI0Oz6Q _rWzlsMDIEeygAPSrI0Oz6Q _rW8IkMDIEeygAPSrI0Oz6Q _rXErcMDIEeygAPSrI0Oz6Q _rXNOUMDIEeygAPSrI0Oz6Q _rXWYQMDIEeygAPSrI0Oz6Q _rXe7IMDIEeygAPSrI0Oz6Q _rXneAMDIEeygAPSrI0Oz6Q _rXwA4MDIEeygAPSrI0Oz6Q _rYLesMDIEeygAPSrI0Oz6Q" generalizations="_rYTagMDIEeygAPSrI0Oz6Q">
+    <modelElement href="team24.uml#_XopGQLwYEeyYtOKIsoJ-AQ"/>
+    <visualProperties xmi:id="_YJkpEbwYEeyYtOKIsoJ-AQ" position="-1097.0,-253.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YJkpErwYEeyYtOKIsoJ-AQ" label="+"/>
+    <attributes xmi:id="_YJkpE7wYEeyYtOKIsoJ-AQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="team24.uml#_Xyj3QLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqeOsLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpFLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpFbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpFrwYEeyYtOKIsoJ-AQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpF7wYEeyYtOKIsoJ-AQ" defaultValue="new Font(&quot;Consolas&quot;, Font.PLAIN, 15)" name="TEXT_STYLE" staticAttribute="true">
+      <modelElement href="team24.uml#_XylFYLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqe1wLwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpGLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpGbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpGrwYEeyYtOKIsoJ-AQ" name="Font">
+        <modelElement href="team24.uml#_XyC54LwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpG7wYEeyYtOKIsoJ-AQ" defaultValue="new Cursor(Cursor.HAND_CURSOR)" name="HAND" staticAttribute="true">
+      <modelElement href="team24.uml#_XylscLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqe1wbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpHLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpHbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpHrwYEeyYtOKIsoJ-AQ" name="Cursor">
+        <modelElement href="team24.uml#_XyEIAbwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpH7wYEeyYtOKIsoJ-AQ" defaultValue="new Color(0, 0, 0, 0)" name="CLEAR" staticAttribute="true">
+      <modelElement href="team24.uml#_XymTgLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqe1wrwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpILwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpIbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpIrwYEeyYtOKIsoJ-AQ" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpL7wYEeyYtOKIsoJ-AQ" defaultValue="Color.decode(&quot;#ffffff&quot;)" name="DISPLAY_BG" staticAttribute="true">
+      <modelElement href="team24.uml#_XyovwLwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqe1xrwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpMLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpMbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpMrwYEeyYtOKIsoJ-AQ" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpM7wYEeyYtOKIsoJ-AQ" defaultValue="4" name="PAD" staticAttribute="true">
+      <modelElement href="team24.uml#_XypW0bwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqe1x7wYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpNLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpNbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpNrwYEeyYtOKIsoJ-AQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpN7wYEeyYtOKIsoJ-AQ" name="display">
+      <modelElement href="team24.uml#_Xyp94bwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqfc0LwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o04bgMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o08F4MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1UgYMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpObwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpOrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpO7wYEeyYtOKIsoJ-AQ" name="JTextField">
+        <modelElement href="team24.uml#_XyKOoLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpPLwYEeyYtOKIsoJ-AQ" name="input">
+      <modelElement href="team24.uml#_XyrMALwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqfc0bwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o08s8MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o09UAMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1VHcMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpPrwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpP7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpQLwYEeyYtOKIsoJ-AQ" name="JTextField">
+        <modelElement href="team24.uml#_XyKOoLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpS7wYEeyYtOKIsoJ-AQ" name="operatorButtons">
+      <modelElement href="team24.uml#_XytoQbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqfc1LwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1A-YMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1A-YcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1CMgMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1CMgcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1WVkMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1WVkcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpTrwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpT7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpULwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpUbwYEeyYtOKIsoJ-AQ" name="functionButtons">
+      <modelElement href="team24.uml#_XyvdcbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqgD4LwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1DaoMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1DaocDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1EBsMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1EowMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1W8oMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1XjsMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpVLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpVbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpVrwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpV7wYEeyYtOKIsoJ-AQ" defaultValue="new ArrayList&lt;Measurement>()" name="measurements">
+      <modelElement href="team24.uml#_Xyx5sbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqgq8LwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1FP0MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1FP0cDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1F24MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1F24cDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1YKwMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1YKwcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpWrwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpW7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpXLwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YJkpXbwYEeyYtOKIsoJ-AQ" defaultValue="new ArrayList&lt;Character>()" name="operators">
+      <modelElement href="team24.uml#_Xyzu4bwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqgq8bwYEeyYtOKIsoJ-AQ"/>
+      <stereotypes xmi:id="_o1Gd8MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1HFAMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1HsEMDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1HsEcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_o1Yx0MDIEeygAPSrI0Oz6Q" name="Generics"/>
+      <stereotypes xmi:id="_o1ZY4MDIEeygAPSrI0Oz6Q" name="LegacyStyledElement"/>
+      <visibility xmi:id="_YJkpYLwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpYbwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YJkpYrwYEeyYtOKIsoJ-AQ" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgIMDIEeygAPSrI0Oz6Q" defaultValue="&quot;Enter a value in the left input field and a unit in the right input field&quot;&#xD;&#xA;&#x9;&#x9;&#x9;+ &quot; (to enter an exponent in a unit, type '^' before exponent value, cannot be a decimal&quot;" name="GENERIC_ERROR">
+      <modelElement href="team24.uml#_qY06gMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgIcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY1hkMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgIsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgI8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgJMDIEeygAPSrI0Oz6Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgJcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#ffffff&quot;)" name="TEXT_COLOR" staticAttribute="true">
+      <modelElement href="team24.uml#_qY1hkcDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgJsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgJ8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgKMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgKcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#00E0BB&quot;)" name="INPUT_TEXT_COLOR" staticAttribute="true">
+      <modelElement href="team24.uml#_qY2IoMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgKsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgK8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgLMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgLcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#503D5C&quot;)" name="BACKGROUND" staticAttribute="true">
+      <modelElement href="team24.uml#_qY2IosDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgLsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgL8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgMMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgMcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#00E0BB&quot;)" name="NUMBER_BG" staticAttribute="true">
+      <modelElement href="team24.uml#_qY2IpMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgMsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgM8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgNMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgNcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#00A3A3&quot;)" name="FUNCTION_BG" staticAttribute="true">
+      <modelElement href="team24.uml#_qY2vscDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgNsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgN8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgOMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgOcDIEeygAPSrI0Oz6Q" defaultValue="Color.decode(&quot;#3E687A&quot;)" name="OPERATOR_BG" staticAttribute="true">
+      <modelElement href="team24.uml#_qY2vs8DIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_rVzgOsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgO8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgPMDIEeygAPSrI0Oz6Q" name="Color">
+        <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgPcDIEeygAPSrI0Oz6Q" name="unitSelect">
+      <modelElement href="team24.uml#_qY3WwMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgPsDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_qY390MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rVzgP8DIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY4k4MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgQMDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgQcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgQsDIEeygAPSrI0Oz6Q" name="JComboBox">
+        <modelElement href="team24.uml#_qYwpEMDIEeygAPSrI0Oz6Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgQ8DIEeygAPSrI0Oz6Q" name="showHistory">
+      <modelElement href="team24.uml#_qY4k4cDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgRMDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY5L8MDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgRcDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgRsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgR8DIEeygAPSrI0Oz6Q" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgSMDIEeygAPSrI0Oz6Q" name="historyFrame">
+      <modelElement href="team24.uml#_qY5L8cDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgScDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY5L8sDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgSsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgS8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgTMDIEeygAPSrI0Oz6Q" name="JFrame">
+        <modelElement href="team24.uml#_Xx_2kLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgTcDIEeygAPSrI0Oz6Q" name="histToggle">
+      <modelElement href="team24.uml#_qY5zAMDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgTsDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY5zAcDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgT8DIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgUMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgUcDIEeygAPSrI0Oz6Q" name="JButton">
+        <modelElement href="team24.uml#_XyQ8ULwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgUsDIEeygAPSrI0Oz6Q" name="historyContent">
+      <modelElement href="team24.uml#_qY5zAsDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgU8DIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY6aEMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgVMDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgVcDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgVsDIEeygAPSrI0Oz6Q" name="JTextArea">
+        <modelElement href="team24.uml#_qYxQIMDIEeygAPSrI0Oz6Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rVzgV8DIEeygAPSrI0Oz6Q" name="numberButtons">
+      <modelElement href="team24.uml#_qY6aEcDIEeygAPSrI0Oz6Q"/>
+      <stereotypes xmi:id="_rVzgWMDIEeygAPSrI0Oz6Q" name="Generics">
+        <modelElement href="team24.uml#_qY7BIMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rVzgWcDIEeygAPSrI0Oz6Q" name="LegacyStyledElement">
+        <modelElement href="team24.uml#_qY7oMMDIEeygAPSrI0Oz6Q"/>
+      </stereotypes>
+      <visibility xmi:id="_rVzgWsDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_rVzgW8DIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <type xmi:id="_rVzgXMDIEeygAPSrI0Oz6Q" name="ArrayList">
+        <modelElement href="team24.uml#_XxNMYLwYEeyYtOKIsoJ-AQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YJkpY7wYEeyYtOKIsoJ-AQ" comments="_wG_XMMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wG_-QMDIEeygAPSrI0Oz6Q" name="Window">
+      <modelElement href="team24.uml#_XoswoLwYEeyYtOKIsoJ-AQ"/>
+      <keywords xmi:id="_YJkpZLwYEeyYtOKIsoJ-AQ" keyword="create"/>
+      <visibility xmi:id="_YJkpZbwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJkpZrwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJkpZ7wYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XotXsLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJkpaLwYEeyYtOKIsoJ-AQ" name="Window">
+          <modelElement href="team24.uml#_XopGQLwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YJkpabwYEeyYtOKIsoJ-AQ" comments="_wI-UMMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wI_iUMDIEeygAPSrI0Oz6Q" name="setupDisplay">
+      <modelElement href="team24.uml#_XotXsbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqhSALwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkparwYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpa7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJkpbLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_Xot-wLwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJkpbbwYEeyYtOKIsoJ-AQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YJkpbrwYEeyYtOKIsoJ-AQ" comments="_wK7cAMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wK8qIMDIEeygAPSrI0Oz6Q" name="setupInput">
+      <modelElement href="team24.uml#_Xot-wbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_fqhSAbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpb7wYEeyYtOKIsoJ-AQ" label="-"/>
+      <cardinality xmi:id="_YJkpcLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJkpcbwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_Xoul0LwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJkpcrwYEeyYtOKIsoJ-AQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YJkpiLwYEeyYtOKIsoJ-AQ" comments="_wMfiQMDIEeygAPSrI0Oz6Q" targetConnectionVisual="_wMgJUMDIEeygAPSrI0Oz6Q" name="main" staticOperation="true">
+      <modelElement href="team24.uml#_XoxpILwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jyULwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpibwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJkpirwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJkpi7wYEeyYtOKIsoJ-AQ" name="args">
+        <modelElement href="team24.uml#_XoxpIbwYEeyYtOKIsoJ-AQ"/>
+        <cardinality xmi:id="_YJkpjLwYEeyYtOKIsoJ-AQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_YJkpjbwYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJkpjrwYEeyYtOKIsoJ-AQ" name="error" staticOperation="true">
+      <modelElement href="team24.uml#_XoyQMbwYEeyYtOKIsoJ-AQ"/>
+      <visualProperties xmi:id="_g_jyUbwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkpj7wYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJkpkLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YJkpkbwYEeyYtOKIsoJ-AQ" name="msg">
+        <modelElement href="team24.uml#_Xoy3QLwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YJkpkrwYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YJkpk7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJkplLwYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YJkplbwYEeyYtOKIsoJ-AQ" name="addOperand">
+      <modelElement href="team24.uml#_XozeULwYEeyYtOKIsoJ-AQ"/>
+      <visibility xmi:id="_YJkplrwYEeyYtOKIsoJ-AQ" label="+"/>
+      <cardinality xmi:id="_YJkpl7wYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YJkpmLwYEeyYtOKIsoJ-AQ">
+        <modelElement href="team24.uml#_XozeUrwYEeyYtOKIsoJ-AQ"/>
+        <type xmi:id="_YJkpmbwYEeyYtOKIsoJ-AQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YJkpmrwYEeyYtOKIsoJ-AQ" name="symbol">
+        <modelElement href="team24.uml#_XozeUbwYEeyYtOKIsoJ-AQ"/>
+        <keywords xmi:id="_YJkpm7wYEeyYtOKIsoJ-AQ" keyword="final"/>
+        <cardinality xmi:id="_YJkpnLwYEeyYtOKIsoJ-AQ" label="1" max="1" min="1"/>
+        <type xmi:id="_YJkpnbwYEeyYtOKIsoJ-AQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q5pvoMDIEeygAPSrI0Oz6Q" name="setupSoftButtons">
+      <modelElement href="team24.uml#_qXv8cMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q5pvocDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q5pvosDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5pvo8DIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYPEoMDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_q5pvpMDIEeygAPSrI0Oz6Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q53LAMDIEeygAPSrI0Oz6Q" name="addOperatorButtonListener">
+      <modelElement href="team24.uml#_qXwjgMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q53LAcDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q53LAsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q53LA8DIEeygAPSrI0Oz6Q" name="btn">
+        <modelElement href="team24.uml#_qXwjgcDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q53LBMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q53LBcDIEeygAPSrI0Oz6Q" name="JButton">
+          <modelElement href="team24.uml#_XyQ8ULwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q6RasMDIEeygAPSrI0Oz6Q" name="setupHistoryPanel">
+      <modelElement href="team24.uml#_qXwjgsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q6RascDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q6RassDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q6Ras8DIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYPrs8DIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_q6RatMDIEeygAPSrI0Oz6Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q6cZ0MDIEeygAPSrI0Oz6Q" name="newButton">
+      <modelElement href="team24.uml#_qYPEocDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q6cZ0cDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q6cZ0sDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q6cZ08DIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYPrssDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_q6cZ1MDIEeygAPSrI0Oz6Q" name="JButton">
+          <modelElement href="team24.uml#_XyQ8ULwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q6cZ1cDIEeygAPSrI0Oz6Q" name="text">
+        <modelElement href="team24.uml#_qYPrsMDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q6cZ1sDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q6cZ18DIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q6cZ2MDIEeygAPSrI0Oz6Q" name="color">
+        <modelElement href="team24.uml#_qYPrscDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q6cZ2cDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q6cZ2sDIEeygAPSrI0Oz6Q" name="Color">
+          <modelElement href="team24.uml#_XyHLULwYEeyYtOKIsoJ-AQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q6mx4MDIEeygAPSrI0Oz6Q" name="adjustHistoryPanel">
+      <modelElement href="team24.uml#_qYQSwMDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q6mx4cDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q6mx4sDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q6mx48DIEeygAPSrI0Oz6Q" name="animate">
+        <modelElement href="team24.uml#_qYQSwcDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q6mx5MDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q6mx5cDIEeygAPSrI0Oz6Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q6zmMMDIEeygAPSrI0Oz6Q" name="addHistory">
+      <modelElement href="team24.uml#_qYQSwsDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q6zmMcDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q6zmMsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q6zmM8DIEeygAPSrI0Oz6Q" name="expression">
+        <modelElement href="team24.uml#_qYQSw8DIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q6zmNMDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q6zmNcDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q6_MYMDIEeygAPSrI0Oz6Q" name="removeDoubleSpace">
+      <modelElement href="team24.uml#_qYQ50MDIEeygAPSrI0Oz6Q"/>
+      <visibility xmi:id="_q6_MYcDIEeygAPSrI0Oz6Q" label="-"/>
+      <cardinality xmi:id="_q6_MYsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q6_MY8DIEeygAPSrI0Oz6Q">
+        <modelElement href="team24.uml#_qYRg4MDIEeygAPSrI0Oz6Q"/>
+        <type xmi:id="_q6_MZMDIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q6_MZcDIEeygAPSrI0Oz6Q" name="str">
+        <modelElement href="team24.uml#_qYQ50cDIEeygAPSrI0Oz6Q"/>
+        <cardinality xmi:id="_q6_MZsDIEeygAPSrI0Oz6Q" label="1" max="1" min="1"/>
+        <type xmi:id="_q6_MZ8DIEeygAPSrI0Oz6Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

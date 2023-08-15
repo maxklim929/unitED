@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>unitéED | Aide</title>
+    <style>
+        :root {
+            --animTime: .35s;
+            --textColor: #f8f6f4;
+            --background: #080604;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
+
+        html {
+            background: #393633;
+        }
+
+        body {
+            width: calc(85vw - 96px);
+            padding: 48px;
+            background: var(--background);
+            color: var(--textColor);
+            margin: 48px auto;
+            font-size: 16px;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            color: var(--background);
+            background: var(--textColor);
+            border: none;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        h1 {
+            line-height: 64px;
+            font-size: 48px;
+        }
+
+        h2 {
+            line-height: 56px;
+            font-size: 40px;
+        }
+
+        h3 {
+            line-height: 48px;
+            font-size: 32px;
+        }
+
+        dt {
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        dd {
+            position: relative;
+            opacity: 0.5;
+            color: var(--textColor);
+            transition: opacity var(--animTime) ease-out;
+            overflow: hidden;
+            margin-left: 7px;
+            border-left: 2px solid var(--textColor);
+            padding-top: 4px;
+            padding-left: 7px;
+            padding-bottom: 4px;
+        }
+
+        dd::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: linear-gradient(to bottom right, #fff0, var(--background));
+            opacity: 1;
+            transition: opacity var(--animTime) ease-out;
+        }
+
+        dd:hover {
+            height: auto;
+            opacity: 1;
+        }
+
+        dd:hover::before {
+            opacity: 0;
+        }
+
+        /* Colors, pulled from Monokai */
+        .a {
+            color: #f35c8b;
+        }
+
+        .b {
+            color: #f58235;
+        }
+
+        .c {
+            color: #ffd866;
+        }
+
+        .d {
+            color: #6ed5e6;
+        }
+
+        .e {
+            color: #85d992;
+        }
+
+        .f {
+            color: #9589e2;
+        }
+    </style>
+    <script>
+        toggleTheme = () => {
+            let r = document.querySelector(':root');
+            let t = getComputedStyle(r).getPropertyValue('--textColor');
+            r.style.setProperty('--textColor', getComputedStyle(r).getPropertyValue('--background'));
+            r.style.setProperty('--background', t);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="toggleTheme()">Basculer le thème clair/foncé</button>
+    <noscript>Le basculement du thème est désactivé car vous avez des scripts désactivés</noscript>
+    <h1><b class="a">unité</b><b class="c">ED</b> Aide de la calculatrice</h1>
+    <p>Ceci est la page d'aide générale de la calculatrice unitED. Cette page contient des informations utiles sur les
+        composants et comment les utiliser. <b>Passez la souris</b> sur le texte estompé pour obtenir la description
+        complète !</p>
+
+    <h3>Parties de la calculatrice</h3>
+
+    <dt>Panneau d'affichage</dt>
+    <dd>En haut de la calculatrice se trouve l'affichage. Cela vous permet de voir l'expression actuelle afin de vous
+        souvenir de ce que
+        vous avez fait jusqu'à présent et corrigez les erreurs.</dd>
+
+    <dt>Liste déroulante des unités de résultat</dt>
+    <dd>À côté de l'écran. La liste déroulante des unités de résultat vous permet de déterminer les unités à utiliser
+        pour afficher les résultats pour
+        calculs impliquant des unités similaires. Cela vous permet de travailler dans des unités avec lesquelles vous
+        êtes à l'aise.</dd>
+
+    <dt>Panneau de saisie</dt>
+    <dd>Juste en dessous de l'écran. Cela vous permet d'entrer l'opérande courant en tapant sur le clavier physique ou
+        en utilisant
+        les "touches programmables"</dd>
+
+    <dt>Liste déroulante des unités</dt>
+    <dd>Sur la droite de l'entrée se trouve la liste déroulante des unités, qui est utilisée pour saisir ou sélectionner
+        les unités associées à la
+        opérandes. La valeur par défaut est sans unité (vide), mais permet des expressions et des résultats correctement
+        formatés si une unité
+        est tapé ou sélectionné.</dd>
+
+    <dt>Bouton de signature</dt>
+    <dd>Le bouton étiqueté avec le symbole "plus-moins" est utilisé pour basculer le signe de l'opérande courant. Ceci
+        permet
+        vous permettre de travailler plus rapidement.</dd>
+
+    <dt>Bouton de réinitialisation</dt>
+    <dd>En cliquant sur le bouton "R" (pour Réinitialiser), l'expression courante et l'opérande courant seront
+        effacé. Cela vous permet de redémarrer le processus de saisie des données.</dd>
+
+    <dt>Bouton Effacer</dt>
+    <dd>En cliquant sur le bouton marqué "C" (pour Effacer), l'opérande courant sera effacé. Cela vous permet de
+        corriger
+        erreurs commises lors de la saisie d'un opérande.</dd>
+
+    <dt>Boutons de fonctionnement</dt>
+    <dd>Les boutons "soft" de l'écran peuvent être cliqués pour indiquer l'opérateur que vous souhaitez utiliser, après
+        avoir
+        entré un opérande dans l'entrée.</dd>
+
+    <dt>Bouton égal</dt>
+    <dd>En cliquant sur le bouton "=", l'expression que vous avez saisie sera évaluée</dd>
+
+    <dt>Clavier numérique</dt>
+    <dd>Cela donne aux utilisateurs qui préfèrent taper à l'écran la possibilité de le faire. Les touches numériques
+        programmables (y compris le signe)
+        peut être utilisé pour saisir des opérandes.</dd>
+
+    <dt>Bouton de retour arrière</dt>
+    <dd>Le bouton avec l'icône "flèche arrière" est la touche de suppression et peut être utilisé pour supprimer le
+        chiffre le plus à droite dans le
+        partie numérique de l'opérande courant. Cela permet de corriger les erreurs.</dd>
+
+    <dt>Bouton d'alimentation entier</dt>
+    <dd>Le bouton étiqueté "x<sup>y</sup>" est le bouton d'alimentation entier. Ceci peut être utilisé pour calculer la
+        puissance entière
+        d'un opérande pour pouvoir travailler plus facilement avec les exposants.</dd>
+
+    <dt>Bouton Inverser</dt>
+    <dd>Le bouton étiqueté "1/x" est le bouton inverse. Ceci peut être utilisé pour inverser un opérande, ce qui vous
+        permet de
+        "inverser" une opération et/ou inverser les unités</dd>
+
+    <dt>Panneau Historique</dt>
+    <dd>En cliquant sur la barre fléchée sur le côté droit de la fenêtre, le panneau d'historique glissera pour afficher
+        le
+        calculs que vous avez effectués jusqu'à présent. Cela vous permet de référencer les expressions précédentes et
+        de corriger les erreurs.</dd>
+
+    <dt>Panneau des étapes intermédiaires</dt>
+    <dd>En cliquant sur la barre fléchée sur le côté gauche de la fenêtre, le panneau des étapes intermédiaires glissera
+        pour montrer
+        étapes utilisées pour passer de l'expression initiale au résultat afin que vous puissiez apprendre aux gens à
+        travailler avec
+        unités.</dd>
+
+    <h3>Saisie des entrées</h3>
+
+    <dt>Entrée d'opérande</dt>
+    <dd>Le système permet à la fois le calcul d'opérandes sans unité et mesurés, de sorte qu'un plus large éventail de
+        calculs
+        peut être effectuée.</dd>
+
+    <dt>Entrée d'unité</dt>
+    <dd>Le système prend en charge la sélection d'une unité dans la liste déroulante des entrées ou en tapant la vôtre !
+        Si vous tapez le vôtre, ceci
+        prend en charge plusieurs conjonctions de tirets ou barres obliques/conjonctions afin que vous puissiez utiliser
+        le système de manière raisonnable
+        manière sophistiquée et résoudre tous les problèmes qui vous sont posés.</dd>
+
+    <h3>Caractéristiques du système</h3>
+
+    <dt>Exécuter des calculs</dt>
+    <dd>Le système permet d'utiliser le résultat de l'expression précédente dans l'expression suivante lorsque vous
+        cliquez sur un
+        bouton de l'opérateur.</dd>
+
+    <dt>Comme les unités</dt>
+    <dd>Le système peut effectuer des opérations sur des unités similaires (telles que les miles et les mètres, ou les
+        grammes et les onces) qui sont
+        prédéfini dans la liste déroulante. Cela vous permet d'éviter d'avoir à effectuer des conversions manuellement.
+    </dd>
+
+    <dt>Définir de nouvelles unités similaires</dt>
+    <dd>Le système permet à l'utilisateur de définir de nouvelles unités similaires et leurs facteurs de conversion
+        associés. Cela vous permet de
+        utiliser le système avec des unités qu'il ne comprend pas à l'origine.</dd>
+
+    <dt>Options d'unité de résultat</dt>
+    <dd>Le système sélectionne automatiquement les unités dans l'expression actuelle et remplit la liste déroulante des
+        unités de résultat avec
+        vous permettant de choisir parmi des options raisonnables.</dd>
+
+    <dt>Opérateurs de clavier physique</dt>
+    <dd>Le système vous permet d'utiliser le clavier physique pour entrer des opérations comme si vous utilisiez une
+        touche programmable afin que
+        vous pouvez travailler plus efficacement.</dd>
+    <dd>REMARQUE : les opérateurs du pavé numérique fonctionnent comme prévu, s'ils sont présents. De plus, la touche
+        moins/trait de soulignement agit comme -
+        (moins), la touche plus/égal agit comme + (plus), la touche x agit comme x (fois) et la touche barre
+        oblique/question agit comme /
+        (diviser).</dd>
+
+    <dt>Chiffres du clavier physique</dt>
+    <dd>Le système vous permet d'utiliser le clavier physique pour entrer des chiffres comme si vous utilisiez une
+        touche programmable afin que vous
+        peut travailler plus efficacement.</dd>
+    <dd>REMARQUE : Les chiffres du pavé numérique fonctionnent comme prévu, s'ils sont présents. De plus, les numéros de
+        la rangée supérieure du résumé
+        la disposition du clavier fonctionne comme prévu.</dd>
+
+    <dt>Langues du système</dt>
+    <dd>Selon votre région, le système peut être distribué dans différentes langues. Les langues actuellement incluses
+        sont
+        Anglais, français et russe.</dd>
+
+    <dt>Fonction d'impression</dt>
+    <dd>Le système permet à l'utilisateur d'imprimer l'historique de la calculatrice avec le bouton "Fichier" dans la
+        barre de menu.</dd>
+
+</body>
+
+</html>

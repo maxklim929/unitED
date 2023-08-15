@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>unitED | Help</title>
+    <style>
+        :root {
+            --animTime: .35s;
+            --textColor: #f8f6f4;
+            --background: #080604;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
+
+        html {
+            background: #393633;
+        }
+
+        body {
+            width: calc(85vw - 96px);
+            padding: 48px;
+            background: var(--background);
+            color: var(--textColor);
+            margin: 48px auto;
+            font-size: 16px;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            color: var(--background);
+            background: var(--textColor);
+            border: none;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        h1 {
+            line-height: 64px;
+            font-size: 48px;
+        }
+
+        h2 {
+            line-height: 56px;
+            font-size: 40px;
+        }
+
+        h3 {
+            line-height: 48px;
+            font-size: 32px;
+        }
+
+        dt {
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        dd {
+            position: relative;
+            opacity: 0.5;
+            color:  var(--textColor);
+            transition: opacity var(--animTime) ease-out;
+            overflow: hidden;
+            margin-left: 7px;
+            border-left: 2px solid var(--textColor);
+            padding-top: 4px;
+            padding-left: 7px;
+            padding-bottom: 4px;
+        }
+
+        dd::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: linear-gradient(to bottom right, #fff0, var(--background));
+            opacity: 1;
+            transition: opacity var(--animTime) ease-out;
+        }
+
+        dd:hover {
+            height: auto;
+            opacity: 1;
+        }
+
+        dd:hover::before {
+            opacity: 0;
+        }
+
+        /* Colors, pulled from Monokai */
+        .a {
+            color: #f35c8b;
+        }
+
+        .b {
+            color: #f58235;
+        }
+
+        .c {
+            color: #ffd866;
+        }
+
+        .d {
+            color: #6ed5e6;
+        }
+
+        .e {
+            color: #85d992;
+        }
+
+        .f {
+            color: #9589e2;
+        }
+    </style>
+    <script>
+        toggleTheme = () => {
+            let r = document.querySelector(':root');
+            let t = getComputedStyle(r).getPropertyValue('--textColor');
+            r.style.setProperty('--textColor', getComputedStyle(r).getPropertyValue('--background'));
+            r.style.setProperty('--background', t);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="toggleTheme()">Toggle Light/Dark Theme</button>
+    <noscript>Toggling the theme is disabled because you have scripts disabled</noscript>
+    <h1><b class="a">unit</b><b class="c">ED</b> Calculator Help</h1>
+    <p>This is the general help page for the unitED calculator. This page contains useful information on the displayed
+        components and how to use them. <b>Hover</b> over the faded text to get the full description!</p>
+
+    <h3>Parts of the Calculator</h3>
+
+    <dt>Display Panel</dt>
+    <dd>At the top of the calculator is the display. This allows you to see the current expression so you remember what
+        you have done so far and fix any mistakes.</dd>
+
+    <dt>Result Units Dropdown</dt>
+    <dd>Next to the display. The Result Units Dropdown allows you to determine the units to use to display results for
+        calculations involving like-units. This allows you to work in units you are comfortable with.</dd>
+
+    <dt>Input Panel</dt>
+    <dd>Just below the display. This allows you to enter the current operand by typing on the physical keyboard or using
+        the "soft keys"</dd>
+
+    <dt>Unit Dropdown</dt>
+    <dd>On the right of the Input is the Unit Dropdown, which is used to enter or select the units associated with the
+        operands. This defaults to unitless (empty), but allows for properly formatted expressions and results if a unit
+        is typed or selected.</dd>
+
+    <dt>Sign Button</dt>
+    <dd>The button labeled with the "plus-minus" symbol is used to toggle the sign of the current operand. This allows
+        you to work more quickly.</dd>
+
+    <dt>Reset Button</dt>
+    <dd>By clicking on the button labeled "R" (for Reset), both the current expression and the current operand will be
+        cleared. This allows you to restart the data entry process.</dd>
+
+    <dt>Clear Button</dt>
+    <dd>By clicking on the buttton labeled "C" (for Clear), the current operand will be cleared. This allows you to fix
+        mistakes made when entering an operand.</dd>
+
+    <dt>Operation Buttons</dt>
+    <dd>The "soft" buttons in the display can be clicked to indicate the operator you want to use, after you have
+        entered an operand in the input.</dd>
+
+    <dt>Equals Button</dt>
+    <dd>By clicking the button labeled "=", the expression you have entered will be evaluated</dd>
+
+    <dt>Number Pad</dt>
+    <dd>This gives users who prefer to type on-screen the ability to do so. The soft number buttons (including the sign)
+        can be used to input operands.</dd>
+
+    <dt>Backspace Button</dt>
+    <dd>The button with the "backarrow" icon is the delete key, and can be used to delete the rightmost digit in the
+        numeric part of the current operand. This allows for the correction of mistakes.</dd>
+
+    <dt>Integer Power Button</dt>
+    <dd>The button labeled "x<sup>y</sup>" is the integer power button. This can be used to calculate the integer power
+        of an operand so that you can work with exponents more easily.</dd>
+
+    <dt>Inverse Button</dt>
+    <dd>The button labeled "1/x" is the inverse button. This can be used to invert an operand, which allows you to
+        "reverse" an operation and/or invert units</dd>
+
+    <dt>History Panel</dt>
+    <dd>By clicking on the arrow bar on the right side of the window, the history panel will slide out to show the
+        calculations you have performed so far. This allows you to reference previous expressions and fix mistakes.</dd>
+
+    <dt>Intermediate Steps Panel</dt>
+    <dd>By clicking on the arrow bar on the left side of the window, the intermediate steps panel will slide out to show
+        steps used to get from the initial expression to the result so that you can teach people about working with
+        units.</dd>
+
+    <h3>Entering Inputs</h3>
+
+    <dt>Operand Input</dt>
+    <dd>The system allows both the calculation of unitless and measured operands, so that a wider array of calculations
+        can be performed.</dd>
+
+    <dt>Unit Input</dt>
+    <dd>The system supports selecing a unit from the input dropdown, or by typing your own! If typing your own, this
+        supports multiple dash-conjunctions or slash/conjunctions so that you can use the system in a reasonably
+        sophisticated way and solve any problems you are given.</dd>
+
+    <h3>System features</h3>
+
+    <dt>Running Calculations</dt>
+    <dd>The system allows for using the result of the previous expression in the next expression when you click an
+        operator button.</dd>
+
+    <dt>Like Units</dt>
+    <dd>The system can perform operations on like units (such as miles and meters, or grams and ounces) that are
+        predefined in the dropdown. This allows you to avoid having to perform conversions manually.</dd>
+
+    <dt>Define New Like Units</dt>
+    <dd>The system allows the user to define new like units and their associated conversion factors. This allows you to
+        use the system with units it does not originally understand.</dd>
+
+    <dt>Result Unit Options</dt>
+    <dd>The system automatically picks the units in the current expression and populates the Result Unit Dropdown with
+        them, allowing you to choose amongst reasonable options.</dd>
+
+    <dt>Physical Keyboard Operators</dt>
+    <dd>The system allows you to use the physical keyboard to enter oeprations as if you were using a soft key so that
+        you can work more efficiently.</dd>
+    <dd>NOTE: Number pad operators work as expected, if present. In addition, the minus/underscore key acts as -
+        (minus), the plus/equals key acts as + (plus), the x key acts as x (times), and the slash/question key acts as /
+        (divide).</dd>
+
+    <dt>Physical Keyboard Digits</dt>
+    <dd>The system allows you to use the physical keyboard to enter digits as if you were using a soft key so that you
+        can work more efficiently.</dd>
+    <dd>NOTE: The number pad numerals work as expected, if present. In addition, the top row numbers in the condensed
+        keyboard layout work as expected.</dd>
+
+    <dt>System Languages</dt>
+    <dd>Depending on your locale, the system can be distributed in different languages. Currently included languages are
+        English, French, and Russian.</dd>
+
+    <dt>Print Feature</dt>
+    <dd>The system allows the user to print the calculator history with the "File" button in the menubar.</dd>
+
+</body>
+
+</html>
